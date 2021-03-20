@@ -92,7 +92,7 @@ main {
   }
   .exhibitions {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   }
 }
 
@@ -108,7 +108,6 @@ main {
   background-color: white;
   box-shadow: 0 0 8px rgba(0,0,0,0.4);
   padding: 8px;
-  margin: 16px;
   width: 300px;
   border-radius: 3px;
 }
