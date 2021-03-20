@@ -58,6 +58,7 @@ nav ul li a:hover {
 
 main {
   margin: 60px auto;
+  padding: 10px;
 }
 
 
@@ -107,6 +108,7 @@ main {
   background-color: white;
   box-shadow: 0 0 8px rgba(0,0,0,0.4);
   padding: 8px;
+  margin: 0 auto;
   width: 300px;
   border-radius: 3px;
 }
