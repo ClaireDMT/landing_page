@@ -71,18 +71,6 @@ main {
   font-size: 36px;
 }
 
-.exhibitions {
-  display: flex;
-}
-@media (max-width: 800px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-
-  .card-white {
-    width: auto;
-  }
-}
 
 /* Container media queries */
 @media (min-width: 500px) {
@@ -101,6 +89,9 @@ main {
 @media (min-width: 1000px) {
   main, .container {
     width: 800px;
+  }
+  .exhibitions {
+  display: flex;
   }
 }
 
