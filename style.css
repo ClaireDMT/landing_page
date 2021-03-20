@@ -88,12 +88,21 @@ main {
 
 @media (min-width: 1000px) {
   main, .container {
-    width: 800px;
+    width: 900px;
   }
   .exhibitions {
   display: flex;
+  justify-content: center;
   }
 }
+
+@media (min-width: 1200px) {
+  main, .container {
+    width: 1100px;
+  }
+}
+
+
 
 .card-exhibition  {
   background-color: white;
@@ -126,13 +135,12 @@ h4.artist {
 
 footer {
   background-color: #302728;
-  padding: 40px;
+  padding: 40px 0;
   color: #f5f4f4;
   font-family: 'Inconsolata', monospace;
 }
 
 footer .container {
-  width: 1200px;
   margin: 0 auto;
 }
 
