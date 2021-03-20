@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  background-color: #f5f4f4;
+}
+
+h2, h3, h4 {
+  font-family: 'Inconsolata', monospace;
+}
+
+nav {
+  background-color: #f5f4f4;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(48, 39, 40, 0.7);
+}
+
+nav img {
+  height: 70px;
+  margin: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+nav ul li {
+  margin-left: 16px;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #302728;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.banner {
+  background-image: url("images/gallery.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 64px;
+  letter-spacing: 8px
+}
+
+main {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+
+.banner h3 {
+  color: #f5f4f4;
+  font-size: 32px;
+}
+
+.title-section {
+  font-size: 36px;
+}
+
+.exhibitions {
+  display: flex;
+}
+
+.card-exhibition  {
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  padding: 8px;
+  margin: 16px;
+  width: 300px;
+  border-radius: 3px;
+}
+
+.card-exhibition img {
+  height: 200px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.card-exhibition h3, h4 {
+  margin-bottom: 16px;
+}
+
+h4.artist {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.card-exhibition p {
+  color: #302728;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #302728;
+  padding: 40px;
+  color: #f5f4f4;
+  font-family: 'Inconsolata', monospace;
+}
+
+footer .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: right;
+  margin: 5px 0;
+}
