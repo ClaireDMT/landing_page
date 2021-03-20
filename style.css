@@ -27,6 +27,7 @@ nav ul {
   list-style: none;
   display: inline-flex;
   margin-right: 20px;
+  padding: 0;
 }
 nav ul li {
   margin-left: 16px;
@@ -94,6 +95,9 @@ main {
   display: flex;
   justify-content: space-between;
   }
+  .card-exhibition {
+    margin: 0px auto;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -108,7 +112,7 @@ main {
   background-color: white;
   box-shadow: 0 0 8px rgba(0,0,0,0.4);
   padding: 8px;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 300px;
   border-radius: 3px;
 }
