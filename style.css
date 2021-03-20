@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #f5f4f4;
 }
 
@@ -88,6 +88,9 @@ main {
 }
 
 @media (min-width: 1000px) {
+  body {
+    font-size: 20px;
+  }
   main, .container {
     width: 900px;
   }
